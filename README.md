@@ -36,7 +36,7 @@ The packaged app is written to `release/Glass Browser-win32-x64/`. The executabl
 
 ## Release
 
-The current public release is **v0.1.0**. Download the Windows package from the [GitHub Releases page](https://github.com/jxxdhaha/glass-browser/releases).
+The current public release is **v0.1.1**. Download the Windows package from the [GitHub Releases page](https://github.com/jxxdhaha/glass-browser/releases).
 
 ## License
 
