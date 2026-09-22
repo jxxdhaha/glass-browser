@@ -1,0 +1,34 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/GtiahiYuF27AryYczfe27m.git",
+    "expiration": "2026-09-23T14:57:08.644Z",
+    "token": "art_v2_x_16e1505b0302526a22d1d2a381b5884c7841cff6?expires=1790175428",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "glass-browser",
+  "path": "/home/ubuntu/glass-browser",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "Ji2E3FZjY8f8gfeisBvkMM",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "eWJwRaLnqzEAdwkoFnLFZb",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Jad Afif Khoury",
+    "OWNER_OPEN_ID": "TfKJJAywZjTZRRhvHjA4sv",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "3357c793-b8be-4096-b53e-b1f7f17779d6",
+    "VITE_APP_ID": "GtiahiYuF27AryYczfe27m",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Glass Browser",
+    "VITE_FRONTEND_FORGE_API_KEY": "2dK9k7oy4iXcJnDcUB6bid",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}

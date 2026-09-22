@@ -1,0 +1,10 @@
+[2026-09-22T14:57:20.798Z] Starting dev server with command: pnpm run dev
+[2026-09-22T14:57:22.902Z] > glass-browser@1.0.0 dev /home/ubuntu/glass-browser
+[2026-09-22T14:57:22.902Z] > vite --host
+[2026-09-22T14:57:23.394Z] VITE v7.1.9  ready in 447 ms
+[2026-09-22T14:57:23.395Z] ➜  Local:   http://localhost:3000/
+[2026-09-22T14:57:23.395Z] ➜  Network: http://169.254.0.21:3000/
+[2026-09-22T15:01:19.489Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-09-22T15:02:01.553Z] 3:02:01 PM [vite] (client) hmr update /src/index.css
+[2026-09-22T15:02:16.165Z] 3:02:16 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+[2026-09-22T15:02:20.906Z] 3:02:20 PM [vite] (client) page reload index.html
