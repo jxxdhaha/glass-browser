@@ -1,0 +1,11 @@
+appId: com.jxxdhaha.glassbrowser
+productName: Glass Browser
+artifactName: Glass-Browser-${version}-win32-x64.${ext}
+directories:
+  output: ../release
+electronVersion: 44.4.3
+win:
+  target:
+    - target: portable
+      arch:
+        - x64

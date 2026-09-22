@@ -1,4 +1,4 @@
-const { app, BrowserWindow, Menu, shell } = require("electron");
+const { app, BrowserWindow, Menu } = require("electron");
 const path = require("path");
 
 function createWindow() {
@@ -20,8 +20,7 @@ function createWindow() {
 
   window.once("ready-to-show", () => window.show());
   window.webContents.setWindowOpenHandler(({ url }) => {
-    if (/^https?:/i.test(url)) shell.openExternal(url);
-    return { action: "deny" };
+    return /^https?:/i.test(url) ? { action: "allow" } : { action: "deny" };
   });
 
   const entry = app.isPackaged
